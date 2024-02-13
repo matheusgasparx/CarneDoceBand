@@ -1,0 +1,44 @@
+#all-band {
+    background-image: url(../imgs/cd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 34.3rem;  
+    padding: 5rem;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+}
+
+.new-album {
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    width: 40rem;
+    margin: 20px auto;
+}
+
+.new-album img {
+    border-radius: 5px;
+}
+
+.album-info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+
+.album-info h1 {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+}
+
+.album-info p {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;    
+    font-size: 1.2rem;
+}

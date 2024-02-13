@@ -1,0 +1,46 @@
+.header {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;   
+}
+
+.contact li {
+    list-style: none;
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;   
+}
+
+.contact a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.logo img {
+    width: 26rem;
+    height:  8rem;
+}
+
+.contact a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #6e6e6e;
+    transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
+}
