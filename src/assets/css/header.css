@@ -30,14 +30,14 @@
     height:  8rem;
 }
 
-.contact a::after {
+/* .contact a::after {
     content: "";
     display: block;
     width: 0;
     height: 2px;
     background: #6e6e6e;
     transition: 0.3s;
-}
+} */
 
 @media (max-width: 800px) {
     .header {
