@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
-body {    
+body { 
     margin: 0;
-    flex-direction: column;
     background: linear-gradient(to left, #ca7104, #ad2702);
+    background-repeat:repeat;
+    background-size: 108%;
 }
 
 @media screen and (min-width: 992px) {
