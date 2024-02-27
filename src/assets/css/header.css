@@ -7,17 +7,30 @@
 
 .contact {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
     justify-content: center;   
 }
 
-.contact li {
+.contact li {    
     list-style: none;
+}
+
+.contact li button {
+    background-color: transparent;
+    color: white;
+    padding: 5px 40px;
+    border: 0;
+    border-radius: 5px;
     font-family: "Dosis", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     text-transform: uppercase;   
+}
+
+.contact li button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .contact a {
@@ -29,15 +42,6 @@
     width: 26rem;
     height:  8rem;
 }
-
-/* .contact a::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #6e6e6e;
-    transition: 0.3s;
-} */
 
 @media (max-width: 800px) {
     .header {

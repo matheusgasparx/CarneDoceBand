@@ -1,0 +1,1 @@
+inserir o z-index e margin para baixo da imagem
