@@ -1,3 +1,21 @@
+    /* CERERE */
+
+.cerere {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    height: 40rem;
+    width: 40rem;
+    margin: 20px auto;
+}
+
+.cerere img {
+    border-radius: 15px;
+    height: 50rem;
+    width: 40rem;
+}
+
     /* INTERIOR */
 
     .interior {
@@ -101,10 +119,20 @@
         background-size: cover;
         background-attachment: fixed;
         height: 34.3rem;
-        width: 100%; 
+        width: 110rem; 
         padding: 0;
         border-top: 3px solid #000000;
         /* border-bottom: 3px solid #000000; */
+    }
+    
+    #cerere {
+        background-image: url(../imgs/cerere-back.png);
+        background-size: cover;
+        background-attachment: local;
+        margin: 0;
+        height: 50rem;
+        width: 100%;
+        padding: 5rem;
     }
     
     #interior {
@@ -116,6 +144,7 @@
         width: 100%;
         padding: 5rem;
     }
+    
     
     #tonus {
         background-image: url(../imgs/tonus3.png);
