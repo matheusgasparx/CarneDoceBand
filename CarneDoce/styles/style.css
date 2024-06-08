@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-shadow-hover {
+      @apply text-shadow;
+    }
+    #textShadow:hover {
+      text-shadow: 
+        0px 0px 10px rgb(255, 145, 0),
+        0px 0px 20px rgb(255, 145, 0),
+        0px 0px 30px rgb(255, 145, 0),
+        0px 0px 40px rgb(255, 145, 0);
+
+        transition-duration: 300ms;
+    }
+  }
