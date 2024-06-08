@@ -1,1 +1,1 @@
-Project with only HTML and CSS.
+Project with Tailwind
