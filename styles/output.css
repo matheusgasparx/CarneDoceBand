@@ -554,8 +554,16 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.row-auto {
+  grid-row: auto;
 }
 
 .mx-auto {
@@ -584,12 +592,28 @@ video {
   height: 9rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-full {
   width: 100%;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-md {
   max-width: 28rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -606,6 +630,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-5 {
@@ -657,6 +685,10 @@ video {
 
 .bg-princesa {
   background-image: url('/src/assets/princesafundo.png');
+}
+
+.bg-rodape {
+  background-image: radial-gradient(circle, rgba(122,86,58,1) 43%, rgba(179,105,44,1) 54%, rgba(119,81,50,1) 77%);
 }
 
 .bg-salmaeyes {
@@ -723,18 +755,93 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.backdrop-filter {
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #textShadow:hover {
-  text-shadow: 
-        0px 0px 10px rgb(255, 145, 0),
-        0px 0px 20px rgb(255, 145, 0),
-        0px 0px 30px rgb(255, 145, 0),
-        0px 0px 40px rgb(255, 145, 0);
+  text-shadow:
+      0px 0px 10px #ff9100,
+      0px 0px 20px #ff9100,
+      0px 0px 30px #ff9100,
+      0px 0px 40px #ff9100;
   transition-duration: 200ms;
   color: #faa16a;
+}
+
+.facebook, .mail, .x, .listen, .youtube {
+  --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.facebook:hover img {
+  transition: all 0.3s ease-in-out
+    ;
+  filter: 
+      drop-shadow(0 0 2px #ff9100) 
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100);
+}
+
+.x:hover img {
+  transition: all 0.3s ease-in-out
+    ;
+  filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+}
+
+.youtube:hover img {
+  transition: all 0.3s ease-in-out
+    ;
+  filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+}
+
+.listen:hover img {
+  transition: all 0.3s ease-in-out
+    ;
+  filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+}
+
+.instagram:hover img {
+  transition: all 0.3s ease-in-out
+    ;
+  filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+}
+
+.mail:hover img {
+  transition: all 0.3s ease-in-out
+    ;
+  filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
 }
 
 @media (min-width: 768px) {

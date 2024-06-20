@@ -3,18 +3,84 @@
 @tailwind utilities;
 
 @layer utilities {
-    .text-shadow-hover {
-      @apply text-shadow;
-    }
-    #textShadow:hover {
-      text-shadow: 
-        0px 0px 10px rgb(255, 145, 0),
-        0px 0px 20px rgb(255, 145, 0),
-        0px 0px 30px rgb(255, 145, 0),
-        0px 0px 40px rgb(255, 145, 0);
-
-        transition-duration: 200ms;
-        color: #faa16a;
-    }
+  .text-shadow-hover {
+    @apply text-shadow;
   }
 
+  #textShadow:hover {
+    text-shadow:
+      0px 0px 10px #ff9100,
+      0px 0px 20px #ff9100,
+      0px 0px 30px #ff9100,
+      0px 0px 40px #ff9100;
+
+    transition-duration: 200ms;
+    color: #faa16a;
+  }
+
+  .facebook, .mail, .x, .listen, .youtube {
+    @apply drop-shadow
+  }
+  .facebook:hover img {
+    transition: all 0.3s ease-in-out
+    ;
+    filter: 
+      drop-shadow(0 0 2px #ff9100) 
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100);
+
+  }
+  .x:hover img {
+    transition: all 0.3s ease-in-out
+    ;
+
+    filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+  }
+  .youtube:hover img {
+    transition: all 0.3s ease-in-out
+    ;
+
+    filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+  }
+  .listen:hover img {
+    transition: all 0.3s ease-in-out
+    ;
+
+    filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+  }
+  .instagram:hover img {
+    transition: all 0.3s ease-in-out
+    ;
+
+    filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+  }
+  .mail:hover img {
+    transition: all 0.3s ease-in-out
+    ;
+
+    filter:
+      drop-shadow(0 0 2px #ff9100)
+      drop-shadow(0 0 4px #ff9100) 
+      drop-shadow(0 0 6px #ff9100) 
+      drop-shadow(0 0 8px #ff9100)
+  }
+
+
+}
