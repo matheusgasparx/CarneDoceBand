@@ -1,91 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../styles/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
 
+    <link rel="stylesheet" href="../styles/output.css" />
     <title>Carne Doce</title>
-
-</head>
-<body class="bg-orange-300">
+  </head>
+  <body class="bg-black">
     <!-- HEADER -->
-     <header class="w-full h-36 px-2 shadow-xl group bg-carnedoce">
-        <div class="w-full h-36 flex flex-col items-center justify-center max-w-8xl md:">
-            
-            <div class="flex items-center justify-center">
-                <img 
-                class="group-hover:scale-105 duration-500 max-w-md px-4"
-                src="./assets/carnedoceLogo.png" alt="CarneDoce Logo">
-            
-            </div>
-
-            <nav class="flex items-center justify-end gap-5 mx-auto mb-2">
-                <a href="#" class="text-orange-100 font-semibold" id="textShadow">Cererê</a>
-                <a href="#" class="text-orange-100 font-semibold" id="textShadow">Interior</a>
-                <a href="#" class="text-orange-100 font-semibold" id="textShadow">Tônus</a>
-                <a href="#" class="text-orange-100 font-semibold" id="textShadow">Princesa</a>
-            </nav>
+    <header class="w-full h-36 px-2 shadow-xl bg-carnedoce">
+      <div
+        class="w-full h-36 flex flex-col items-center justify-center max-w-8xl"
+      >
+        <div class="flex items-center justify-center logo">
+          <img
+            class="max-w-md px-4"
+            src="./assets/carnedoceLogo.png"
+            alt="CarneDoce Logo"
+          />
         </div>
-     </header>
+        <nav class="flex items-center justify-end gap-5 mx-auto mb-2">
+          <a href="#" class="text-orange-100 font-semibold" id="textShadow"
+            >Cererê</a
+          >
+          <a href="#" class="text-orange-100 font-semibold" id="textShadow"
+            >Interior</a
+          >
+          <a href="#" class="text-orange-100 font-semibold" id="textShadow"
+            >Tônus</a
+          >
+          <a href="#" class="text-orange-100 font-semibold" id="textShadow"
+            >Princesa</a
+          >
+        </nav>
+      </div>
+    </header>
 
-     <!-- SALMA EYES -->
-     <section class="w-full bg-salmaeyes bg-no-repeat bg-cover bg-left py-28 border-y-2 border-black">
-    </section>
+    <!-- SALMA EYES -->
+    <section
+      class="w-full bg-salmaeyes bg-no-repeat bg-cover bg-left py-28 border-y-2 border-black"
+    ></section>
 
-     <!-- ALBUNS -->
-     <main>
-            <!-- CERERE -->
-        <section class="w-full flex items-center justify-center bg-cerere bg-no-repeat bg-center bg-cover">
-            <div class="flex overflow-hidden relative">
-                <img 
-                class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover hover:scale-105 duration-300"
-                src="./assets/cerere.png" alt="cerere">
-            </div>
-        </section>
-
-            <!-- INTERIOR -->
-        <section class="w-full flex items-center justify-center bg-pequi bg-no-repeat bg-center bg-cover">
-            <div class="flex overflow-hidden relative">
-                <img 
-                class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover hover:scale-105 duration-300"
-                src="./assets/interior.png" alt="interior">
-            </div>
-        </section>
-
-            <!-- TONUS -->
-        <section class="w-full flex items-center justify-center bg-tonus bg-no-repeat bg-center bg-cover">
-            <div class="flex overflow-hidden relative">
-                <img 
-                class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover hover:scale-105 duration-300"
-                src="./assets/tonuscapa.png" alt="tonus">
-            </div>
-        </section>
-
-            <!-- PRINCESA -->
-        <section class="w-full flex items-center justify-center bg-princesa bg-no-repeat bg-center bg-cover">
-            <div class="flex overflow-hidden relative">
-                <img 
-                class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover hover:scale-105 duration-300"
-                src="./assets/princesacapa.png" alt="princesa">
-            </div>
-        </section>
-
-            <!-- CARNE DOCE -->
-        <section class="w-full flex items-center justify-center bg-carnedocecover bg-no-repeat bg-center bg-cover">
-            <div class="flex overflow-hidden relative">
-                <img 
-                class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover hover:scale-105 duration-300"
-                src="./assets/carnedocealbum.jpg" alt="carnedocealbum">
-            </div>
-        </section>
-
-     </main>
-     <footer class="w-full h-36 px-2 shadow-xl group bg-carnedoce border-y-2 border-black ">
-        <div class="flex items-center justify-center">
-            <a href="">Ouça</a>
+    <!-- ALBUNS -->
+    <main>
+      <!-- CERERE -->
+      <section
+        class="w-full flex items-center justify-center bg-cerere bg-no-repeat bg-center bg-cover"
+      >
+        <div class="cerere">
+          <div class="flex overflow-hidden relative reveal">
+            <img
+              class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+              src="./assets/cerere.png"
+              alt="cerere"
+            />
+          </div>
         </div>
-     </footer>
-</body>
+      </section>
+
+      <!-- INTERIOR -->
+      <section
+        class="w-full flex items-center justify-center bg-pequi bg-no-repeat bg-center bg-cover border-y-2 border-black"
+      >
+        <div class="flex overflow-hidden relative reveal">
+          <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+            src="./assets/interior.png"
+            alt="interior"
+          />
+        </div>
+      </section>
+
+      <!-- TONUS -->
+      <section
+        class="w-full flex items-center justify-center bg-tonus bg-no-repeat bg-center bg-cover"
+      >
+        <div class="flex overflow-hidden relative reveal">
+          <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+            src="./assets/tonuscapa.png"
+            alt="tonus"
+          />
+        </div>
+      </section>
+
+      <!-- PRINCESA -->
+      <section
+        class="w-full flex items-center justify-center bg-princesa bg-no-repeat bg-center bg-cover border-y-2 border-black"
+      >
+        <div class="flex overflow-hidden relative reveal">
+          <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-[8px]"
+            src="./assets/princesacapa.png"
+            alt="princesa"
+          />
+        </div>
+      </section>
+
+      <!-- CARNE DOCE -->
+      <section
+        class="w-full flex items-center justify-center bg-carnedocecover bg-no-repeat bg-center bg-cover"
+      >
+        <div class="flex overflow-hidden relative reveal">
+          <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+            src="./assets/carnedocealbum.jpg"
+            alt="carnedocealbum"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="w-full h-36 px-2 shadow-xl group bg-carnedoce border-y-2 border-black"
+    >
+      <div class="flex items-center justify-center">
+        <a href="">Ouça</a>
+      </div>
+    </footer>
+  </body>
+
+  <style>
+    .reveal {
+      visibility: hidden;
+    }
+  </style>
+
+  <script src="script.js"></script>
+  
 </html>
