@@ -9,6 +9,8 @@ module.exports = {
         'pequi': "url('/src/assets/pequifundo.jpg')",
         'tonus': "url('/src/assets/tonus3.png')",
         'princesa': "url('/src/assets/princesafundo.png')",
+        'carnedocecover': "url('/src/assets/carnedocealbumcover.jpg')",
+        'carnedocealbum': "url('/src/assets/carnedocealbum.jpg')",
         'carnedoce': 'linear-gradient(90deg, rgba(205,100,0,1) 5%, rgba(119,53,0,1) 50%, rgba(205,100,0,1) 95%)' 
       },
       width: {
