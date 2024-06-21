@@ -31,28 +31,34 @@
         </div>
         <nav class="flex items-center justify-end gap-5 mx-auto mb-2">
           <a
-            href="#"
+            href="#cerere"
             id="textShadow"
-            class="text-orange-200 font-semibold text-base md:text-lg font-sans"
+            class="text-orange-200 font-semibold text-base md:text-lg font-sans left"
             >Cererê</a
           >
           <a
-            href="#"
+            href="#interior"
             id="textShadow"
-            class="text-orange-200 font-semibold text-base md:text-lg font-sans"
+            class="text-orange-200 font-semibold text-base md:text-lg font-sans left"
             >Interior</a
           >
           <a
-            href="#"
+            href="#tonus"
             id="textShadow"
-            class="text-orange-200 font-semibold text-base md:text-lg font-sans"
+            class="text-orange-200 font-semibold text-base md:text-lg font-sans left"
             >Tônus</a
           >
           <a
-            href="#"
+            href="#princesa"
             id="textShadow"
-            class="text-orange-200 font-semibold text-base md:text-lg font-sans"
+            class="text-orange-200 font-semibold text-base md:text-lg font-sans right"
             >Princesa</a
+          >
+          <a
+            href="#carnedoce"
+            id="textShadow"
+            class="text-orange-200 font-semibold text-base md:text-lg font-sans right"
+            >Carne Doce</a
           >
         </nav>
       </div>
@@ -69,14 +75,12 @@
       <section
         class="w-full flex items-center justify-center bg-cerere bg-no-repeat bg-center bg-cover relative"
       >
-        <div class="cerere">
-          <div class="flex overflow-hidden relative reveal">
-            <img
-              class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
-              src="./assets/cerere.png"
-              alt="cerere"
-            />
-          </div>
+        <div class="flex overflow-hidden relative reveal" id="cerere">
+          <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+            src="./assets/cerere.png"
+            alt="cerere"
+          />
         </div>
       </section>
 
@@ -84,7 +88,7 @@
       <section
         class="w-full flex items-center justify-center bg-pequi bg-no-repeat bg-center bg-cover border-y-2 border-black relative"
       >
-        <div class="flex overflow-hidden relative reveal">
+        <div class="flex overflow-hidden relative reveal" id="interior">
           <img
             class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
             src="./assets/interior.png"
@@ -97,7 +101,7 @@
       <section
         class="w-full flex items-center justify-center bg-tonus bg-no-repeat bg-center bg-cover relative"
       >
-        <div class="flex overflow-hidden relative reveal">
+        <div class="flex overflow-hidden relative reveal" id="tonus">
           <img
             class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
             src="./assets/tonuscapa.png"
@@ -110,7 +114,7 @@
       <section
         class="w-full flex items-center justify-center bg-princesa bg-no-repeat bg-center bg-cover border-y-2 border-black relative"
       >
-        <div class="flex overflow-hidden relative reveal">
+        <div class="flex overflow-hidden relative reveal" id="princesa">
           <img
             class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-[8px]"
             src="./assets/princesacapa.png"
@@ -123,7 +127,7 @@
       <section
         class="w-full flex items-center justify-center bg-carnedocecover bg-no-repeat bg-center bg-cover relative"
       >
-        <div class="flex overflow-hidden relative reveal">
+        <div class="flex overflow-hidden relative reveal" id="carnedoce">
           <img
             class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
             src="./assets/carnedocealbum.jpg"
@@ -137,33 +141,55 @@
       <div class="flex items-center justify-center gap-10 h-full">
         <a
           href="https://www.facebook.com/carnedoce"
-          class="facebook"
+          class="facebook left"
           target="_blank"
         >
           <img src="./assets/facebook.png" alt="Facebook" />
         </a>
-        <a href="https://x.com/carnedoce" class="x" target="_blank">
+        <a href="https://x.com/carnedoce" class="x left" target="_blank">
           <img src="./assets/x.png" alt="X" />
         </a>
         <a
           href="https://www.youtube.com/carnedoce"
-          class="youtube"
+          class="youtube left"
           target="_blank"
         >
           <img src="./assets/youtube.png" alt="YouTube" />
         </a>
-        <a href="https://linktr.ee/carnedoce" class="listen" target="_blank">
+        <a
+          href="https://linktr.ee/carnedoce"
+          class="listen right"
+          target="_blank"
+        >
           <img src="./assets/listen.png" alt="Listen" />
         </a>
         <a
           href="https://www.instagram.com/carnedoce"
-          class="instagram"
+          class="instagram right"
           target="_blank"
         >
           <img src="./assets/instagram.png" alt="Instagram" />
         </a>
-        <a href="mailto:contato@carnedoce.com" class="mail" target="_blank">
+        <a
+          href="mailto:contato@carnedoce.com"
+          class="mail right"
+          target="_blank"
+        >
           <img src="./assets/mail.png" alt="Mail" />
+        </a>
+      </div>
+      <div class="flex items-center justify-center pt-3 pb-2">
+        <a
+          href="https://www.instagram.com/matheusgasparx/"
+          target="_blank"
+          class="gaspar kraken custom-tooltip"
+        >
+          <img
+            src="./assets/polvo32.png"
+            class="w-10 h-10"
+            alt="Desenvolvido por Gaspar"
+          />
+          <span class="tooltip-text">Desenvolvido por Gaspar</span>
         </a>
       </div>
     </footer>
@@ -172,6 +198,32 @@
   <style>
     .reveal {
       visibility: hidden;
+    }
+    .custom-tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .custom-tooltip .tooltip-text {
+      visibility: hidden;
+      width: 200px;
+      background-color: #444052da;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -100px;
+      opacity: 5;
+      transition: opacity 1.5s;
+    }
+
+    .custom-tooltip:hover .tooltip-text {
+      visibility: visible;
+      opacity: 1;
     }
   </style>
 

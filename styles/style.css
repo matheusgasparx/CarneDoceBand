@@ -9,16 +9,16 @@
 
   #textShadow:hover {
     text-shadow:
-      0px 0px 10px #ff9100,
-      0px 0px 20px #ff9100,
-      0px 0px 30px #ff9100,
-      0px 0px 40px #ff9100;
+      0px 0px 4px #ff9100,
+      0px 0px 6px #ff9100,
+      0px 0px 8px #ff9100,
+      0px 0px 10px #ff9100;
 
     transition-duration: 200ms;
     color: #faa16a;
   }
 
-  .facebook, .mail, .x, .listen, .youtube {
+  .facebook, .mail, .x, .listen, .youtube, .kraken {
     @apply drop-shadow
   }
   .facebook:hover img {
@@ -81,6 +81,14 @@
       drop-shadow(0 0 6px #ff9100) 
       drop-shadow(0 0 8px #ff9100)
   }
+  .kraken:hover img {
+    transition: all 0.3s ease-in-out
+    ;
 
-
+    filter:
+      drop-shadow(0 0 2px #1f255a)
+      drop-shadow(0 0 4px #1f255a) 
+      drop-shadow(0 0 6px #1f255a) 
+      drop-shadow(0 0 8px #1f255a)
+  }
 }

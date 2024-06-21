@@ -7,13 +7,25 @@ sr.reveal('.reveal', {
     origin: 'bottom',
 })
 
-function showOverlay(id) {
-    document.getElementById(id).classList.add('active')
-}
+sr.reveal('.right', {
+    distance: '100px',
+    duration: 1500,
+    easing: 'ease-in-out',
+    origin: 'right',
+})
 
-function hideOverlay(id) {
-    document.getElementById(id).classList.remove('active')
-}
+sr.reveal('.left', {
+    distance: '100px',
+    duration: 1500,
+    easing: 'ease-in-out',
+    origin: 'left',
+})
+
+sr.reveal('.gaspar', {
+    distance: '50px',
+    duration: 1500,
+    origin: 'left',
+})
 
 ScrollReveal().reveal('.logo', {
     origin: 'top',
