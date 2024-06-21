@@ -14,7 +14,7 @@
       0px 0px 8px #ff9100,
       0px 0px 10px #ff9100;
 
-    transition-duration: 200ms;
+    transition: all;
     color: #faa16a;
   }
 
@@ -86,9 +86,9 @@
     ;
 
     filter:
-      drop-shadow(0 0 2px #1f255a)
-      drop-shadow(0 0 4px #1f255a) 
+      drop-shadow(0 0 4px #1f255a)
       drop-shadow(0 0 6px #1f255a) 
-      drop-shadow(0 0 8px #1f255a)
+      drop-shadow(0 0 8px #1f255a) 
+      drop-shadow(0 0 10px #1f255a)
   }
 }
