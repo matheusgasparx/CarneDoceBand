@@ -179,19 +179,17 @@
         </a>
       </div>
       <div class="flex items-center justify-center pt-3 pb-2">
-        <a
-          href="https://www.instagram.com/matheusgasparx/"
+        <a 
+          href="https://www.instagram.com/matheusgasparx/" 
           target="_blank"
-          class="gaspar kraken custom-tooltip"
-        >
-          <img
-            src="./assets/polvo32.png"
-            class="w-10 h-10"
-            alt="Desenvolvido por Gaspar"
-          />
-          <span class="tooltip-text">Desenvolvido por Gaspar</span>
+          class="relative inline-block kraken tooltip">
+            <img src="./assets/polvo43.png" class="w-10 h-10" alt="Desenvolvido por Gaspar">
+            <span class="tooltip-text absolute w-48 bg-gray-800 text-cyan-200 text-center rounded p-1 z-10 bottom-full left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-1500">
+              Desenvolvido por Gaspar
+            </span>
         </a>
       </div>
+      
     </footer>
   </body>
 
@@ -199,30 +197,15 @@
     .reveal {
       visibility: hidden;
     }
-    .custom-tooltip {
-      position: relative;
-      display: inline-block;
-    }
 
-    .custom-tooltip .tooltip-text {
+    .tooltip .tooltip-text {
       visibility: hidden;
-      width: 200px;
-      background-color: #444052da;
-      color: #fff;
-      text-align: center;
-      border-radius: 5px;
-      padding: 5px;
-      position: absolute;
-      z-index: 1;
-      bottom: 100%;
-      left: 50%;
-      margin-left: -100px;
-      opacity: 5;
-      transition: opacity 1.5s;
+      opacity: 0;
     }
 
-    .custom-tooltip:hover .tooltip-text {
-      visibility: visible;
+    .tooltip:hover .tooltip-text {
+      visibility: visible;      
+      transition-duration: 1000ms;
       opacity: 1;
     }
   </style>

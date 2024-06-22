@@ -18,77 +18,35 @@
     color: #faa16a;
   }
 
-  .facebook, .mail, .x, .listen, .youtube, .kraken {
-    @apply drop-shadow
+  .facebook, 
+  .mail, 
+  .x, 
+  .listen, 
+  .youtube, 
+  .kraken {
+    @apply drop-shadow;
   }
-  .facebook:hover img {
-    transition: all 0.3s ease-in-out
-    ;
+
+  .facebook:hover img, 
+  .x:hover img, 
+  .youtube:hover img,
+  .listen:hover img, 
+  .instagram:hover img,
+  .mail:hover img {
+    transition: all 0.3s ease-in-out;
     filter: 
       drop-shadow(0 0 2px #ff9100) 
       drop-shadow(0 0 4px #ff9100) 
       drop-shadow(0 0 6px #ff9100) 
       drop-shadow(0 0 8px #ff9100);
-
   }
-  .x:hover img {
-    transition: all 0.3s ease-in-out
-    ;
 
-    filter:
-      drop-shadow(0 0 2px #ff9100)
-      drop-shadow(0 0 4px #ff9100) 
-      drop-shadow(0 0 6px #ff9100) 
-      drop-shadow(0 0 8px #ff9100)
-  }
-  .youtube:hover img {
-    transition: all 0.3s ease-in-out
-    ;
-
-    filter:
-      drop-shadow(0 0 2px #ff9100)
-      drop-shadow(0 0 4px #ff9100) 
-      drop-shadow(0 0 6px #ff9100) 
-      drop-shadow(0 0 8px #ff9100)
-  }
-  .listen:hover img {
-    transition: all 0.3s ease-in-out
-    ;
-
-    filter:
-      drop-shadow(0 0 2px #ff9100)
-      drop-shadow(0 0 4px #ff9100) 
-      drop-shadow(0 0 6px #ff9100) 
-      drop-shadow(0 0 8px #ff9100)
-  }
-  .instagram:hover img {
-    transition: all 0.3s ease-in-out
-    ;
-
-    filter:
-      drop-shadow(0 0 2px #ff9100)
-      drop-shadow(0 0 4px #ff9100) 
-      drop-shadow(0 0 6px #ff9100) 
-      drop-shadow(0 0 8px #ff9100)
-  }
-  .mail:hover img {
-    transition: all 0.3s ease-in-out
-    ;
-
-    filter:
-      drop-shadow(0 0 2px #ff9100)
-      drop-shadow(0 0 4px #ff9100) 
-      drop-shadow(0 0 6px #ff9100) 
-      drop-shadow(0 0 8px #ff9100)
-  }
   .kraken:hover img {
-    transition: all 0.3s ease-in-out
-    ;
-
+    transition: all 0.3s ease-in-out;
     filter:
       drop-shadow(0 0 4px #1f255a)
       drop-shadow(0 0 6px #1f255a) 
       drop-shadow(0 0 8px #1f255a) 
-      drop-shadow(0 0 10px #1f255a)
+      drop-shadow(0 0 10px #1f255a);
   }
 }

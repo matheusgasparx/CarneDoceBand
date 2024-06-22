@@ -21,7 +21,7 @@ sr.reveal('.left', {
     origin: 'left',
 })
 
-sr.reveal('.gaspar', {
+sr.reveal('.kraken', {
     distance: '50px',
     duration: 1500,
     origin: 'left',
