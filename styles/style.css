@@ -9,13 +9,13 @@
 
   #textShadow:hover {
     text-shadow:
-      0px 0px 4px #ff9100,
-      0px 0px 6px #ff9100,
-      0px 0px 8px #ff9100,
-      0px 0px 10px #ff9100;
+      0px 0px 1px #fff8f4,
+      0px 0px 2px #fff8f4,
+      0px 0px 3px #fff8f4,
+      0px 0px 4px #fff8f4;
 
     transition: all;
-    color: #faa16a;
+    color: #fff8f4;
   }
 
   .facebook, 
@@ -35,10 +35,10 @@
   .mail:hover img {
     transition: all 0.3s ease-in-out;
     filter: 
-      drop-shadow(0 0 2px #ff9100) 
-      drop-shadow(0 0 4px #ff9100) 
-      drop-shadow(0 0 6px #ff9100) 
-      drop-shadow(0 0 8px #ff9100);
+      drop-shadow(0 0 2px #fff8f4) 
+      drop-shadow(0 0 4px #fff8f4) 
+      drop-shadow(0 0 6px #fff8f4) 
+      drop-shadow(0 0 8px #fff8f4);
   }
 
   .kraken:hover img {
@@ -48,5 +48,30 @@
       drop-shadow(0 0 6px #1f255a) 
       drop-shadow(0 0 8px #1f255a) 
       drop-shadow(0 0 10px #1f255a);
+  }
+
+  .link-underline {
+    position: relative;
+    color: #94a3b8;
+    transition: color 0.3s ease;
+  }
+  
+  .link-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    width: 0;
+    height: 2px;
+    background-color: #94a3b8;
+    transition: width 0.3s ease;
+  }
+  
+  .link-underline:hover {
+    color: #e2e8f0;
+  }
+  
+  .link-underline:hover::after {
+    width: 100%;
   }
 }
