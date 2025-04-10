@@ -1,3 +1,5 @@
-<h3>Projeto with <i>Tailwind</i> for Carne Doce web site</h3>
+<h1>Projeto Site Banda CarneDoce</h1>
 
-<p>O projeto será continuado com novo layout.</p>
+stacks
+
+- javascript and tailwind
