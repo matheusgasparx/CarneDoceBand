@@ -19,159 +19,168 @@
   </head>
   <body class="bg-black">
     <!-- HEADER -->
-
-    <header class="w-full h-40 px-2 shadow-xl">
-      <div class="w-full h-40 flex flex-col items-center justify-center max-w-8xl">
+    <header class="w-full h-32 px-4  z-10">
+      <div class="w-full h-32 flex flex-col items-center justify-center  backdrop-blur-sm bg-black/75">
         <div class="flex items-center justify-center logo">
           <img
-            class="max-w-md px-4"
+            class="mt-3"
             src="./assets/carnedoceLogo.png"
             alt="CarneDoce Logo"
           />
         </div>
-        <nav class="flex items-center justify-end gap-5 mx-auto">
-          <a href="#cerere" class="font-medium text-lg font-sans link-underline logo">Cererê</a>
-          <a href="#interior" class="font-medium text-lg font-sans link-underline logo">Interior</a>
-          <a href="#tonus" class="font-medium text-lg font-sans link-underline logo">Tônus</a>
-          <a href="#princesa" class="font-medium text-lg font-sans link-underline logo">Princesa</a>
-          <a href="#carnedoce" class="font-medium text-lg font-sans link-underline logo">Carne Doce</a>
-        </nav>
       </div>
     </header>
     
-    
-
-
     <!-- SALMA EYES -->
-    <section
-      class="w-full bg-salmaeyes bg-no-repeat bg-cover bg-left py-28 border-y-2 border-black"
-    ></section>
+    <section class="w-full bg-salmaeyes bg-no-repeat bg-cover bg-left md:bg-center border-y-2 border-black h-48 md:h-[300px]">
+      <div class="h-full w-full flex items-center justify-end px-4 md:px-12">
+        <div class="flex-col items-center">
+          <a href="http://www.facebook.com/carnedoce" target="_blank" class="right">
+            <img src="./assets/icons/facebook.png" alt="Facebook" class="w-6 h-6 md:w-10 md:h-10" />
+          </a>
+          <a href="http://www.instagram.com/carnedoce" target="_blank" class="right">
+            <img src="./assets/icons/instagram.png" alt="Instagram" class="w-6 h-6 md:w-10 md:h-10" />
+          </a>
+          <a href="http://www.x.com/carnedoce" target="_blank" class="right">
+            <img src="./assets/icons/x.png" alt="X" class="w-6 h-6 md:w-10 md:h-10" />
+          </a>
+          <a href="https://www.youtube.com/carnedoce" target="_blank" class="right">
+            <img src="./assets/icons/youtube.png" alt="YouTube" class="w-6 h-6 md:w-10 md:h-10" />
+          </a>
+          <a href="https://linktr.ee/carnedoce" target="_blank" class="right">
+            <img src="./assets/icons/linktree.png" alt="Linktree" class="w-6 h-6 md:w-10 md:h-10" />
+          </a>
+          <a href="mailto:contato@carnedoce.com" target="_blank" class="right">
+            <img src="./assets/icons/email.png" alt="Email" class="w-6 h-6 md:w-10 md:h-10" />
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- ALBUNS -->
     <main>
+
       <!-- CERERE -->
       <section
-        class="w-full flex items-center justify-center bg-cerere bg-no-repeat bg-center bg-cover relative"
+        class="w-full py-16 flex items-center justify-center bg-cerere bg-no-repeat bg-center bg-cover"
       >
-        <div class="flex overflow-hidden relative reveal" id="cerere">
-          <img
-            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
-            src="./assets/cerere.png"
-            alt="cerere"
-          />
+        <div class="container mx-auto px-4 reveal" id="cerere">
+          <div class="flex max-w-2xl mx-auto">
+              <img
+              class="flex my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl rounded-md"
+              src="./assets/cerere.png"
+              alt="interior"
+            />
+            <div class="w-full flex justify-center items-center md:w-1/2">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0wfQKLlCKAYZGF5BqzaWjM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- INTERIOR -->
       <section
-        class="w-full flex items-center justify-center bg-pequi bg-no-repeat bg-center bg-cover border-y-2 border-black relative"
+        class="w-full py-16 flex items-center justify-center bg-pequi bg-no-repeat bg-center bg-cover border-y-2 border-black relative"
       >
-        <div class="flex overflow-hidden relative reveal" id="interior">
-          <img
-            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+        <div class="container mx-auto px-4 reveal" id="interior">
+          <div class="flex max-w-2xl mx-auto">
+            <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl rounded-md"
             src="./assets/interior.png"
             alt="interior"
           />
+          <div class="w-full flex justify-center items-center md:w-1/2">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7G09DgXbzkA4OjnHk8gScX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+          </div>
         </div>
       </section>
 
       <!-- TONUS -->
       <section
-        class="w-full flex items-center justify-center bg-tonus bg-no-repeat bg-center bg-cover relative"
+        class="w-full py-16 flex items-center justify-center bg-tonus bg-no-repeat bg-center bg-cover relative"
       >
-        <div class="flex overflow-hidden relative reveal" id="tonus">
-          <img
-            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+        <div class="container mx-auto px-4 reveal" id="tonus">
+          <div class="flex max-w-2xl mx-auto">
+            <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl rounded-md"
             src="./assets/tonuscapa.png"
             alt="tonus"
           />
+          <div class="w-full flex justify-center items-center md:w-1/2">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1hvL0H8bXnyz8lgZHzztxs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+          </div>
         </div>
       </section>
 
       <!-- PRINCESA -->
       <section
-        class="w-full flex items-center justify-center bg-princesa bg-no-repeat bg-center bg-cover border-y-2 border-black relative"
+        class="w-full py-16 flex items-center justify-center bg-princesa bg-no-repeat bg-center bg-cover border-y-2 border-black relative"
       >
-        <div class="flex overflow-hidden relative reveal" id="princesa">
-          <img
-            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-[8px]"
+        <div class="container mx-auto px-4 reveal" id="princesa">
+          <div class="flex max-w-2xl mx-auto">
+            <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl rounded-md"
             src="./assets/princesacapa.png"
             alt="princesa"
           />
+          <div class="w-full flex justify-center items-center md:w-1/2">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3krb3LsOogMryKOllCsYAL?utm_source=generator" class="w-full md:w-1/2" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+          </div>
         </div>
       </section>
 
       <!-- CARNE DOCE -->
       <section
-        class="w-full flex items-center justify-center bg-carnedocecover bg-no-repeat bg-center bg-cover relative"
+        class="w-full py-16 flex items-center justify-center bg-carnedocecover bg-no-repeat bg-center bg-cover relative"
       >
-        <div class="flex overflow-hidden relative reveal" id="carnedoce">
-          <img
-            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl object-cover rounded-md"
+        <div class="container mx-auto px-4 reveal" id="carnedoce">
+          <div class="flex max-w-2xl mx-auto">
+            <img
+            class="my-16 px-16 md:max-w-3xl lg:w-[700px] lg:max-w-4xl rounded-md"
             src="./assets/carnedocealbum.jpg"
-            alt="carnedocealbum"
+            alt="carnedoce"
           />
+          <div class="w-full flex justify-center items-center md:w-1/2">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/57g72GqKOm3grXGrBjOX14?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="w-full h-36 px-2 border-y-2 border-black bg-rodape">
-      <div class="flex items-center justify-center gap-10 h-full">
-        <a
-          href="https://www.facebook.com/carnedoce"
-          class="facebook left"
-          target="_blank"
-        >
-          <img src="./assets/facebook.png" alt="Facebook" />
-        </a>
-        <a href="https://x.com/carnedoce" class="x left" target="_blank">
-          <img src="./assets/x.png" alt="X" />
-        </a>
-        <a
-          href="https://www.youtube.com/carnedoce"
-          class="youtube left"
-          target="_blank"
-        >
-          <img src="./assets/youtube.png" alt="YouTube" />
-        </a>
-        <a
-          href="https://linktr.ee/carnedoce"
-          class="listen right"
-          target="_blank"
-        >
-          <img src="./assets/listen.png" alt="Listen" />
-        </a>
-        <a
-          href="https://www.instagram.com/carnedoce"
-          class="instagram right"
-          target="_blank"
-        >
-          <img src="./assets/instagram.png" alt="Instagram" />
-        </a>
-        <a
-          href="mailto:contato@carnedoce.com"
-          class="mail right"
-          target="_blank"
-        >
-          <img src="./assets/mail.png" alt="Mail" />
-        </a>
-      </div>
+    <!-- <footer class="w-full px-2 border-y-2 border-black">
       <div class="flex items-center justify-center py-4">
+        <p class="text-white">Desenvolvido por Gaspar</p>
         <a 
           href="https://www.instagram.com/matheusgasparx/" 
           target="_blank"
           class="relative inline-block kraken tooltip">
             <img src="./assets/polvo43.png" class="w-10 h-10" alt="Desenvolvido por Gaspar">
-            <span class="tooltip-text absolute w-48 bg-gray-800 text-cyan-200 text-center rounded p-1 z-10 bottom-full left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-1500">
-              Desenvolvido por Gaspar
-            </span>
+
         </a>
       </div>
       
-    </footer>
+    </footer> -->
   </body>
 
   <style>
+    body {
+      padding-top: 0; /* Remove padding to account for fixed header */
+    }
+    
+    /* Ajuste para garantir que o conteúdo comece abaixo do header */
+    main {
+      margin-top: -50px;
+    }
+    
+    @media (max-width: 640px) {
+      .max-w-2xl {
+        width: 90%;
+      }
+    }
+    
     .reveal {
       visibility: hidden;
     }
@@ -186,7 +195,17 @@
       transition-duration: 1000ms;
       opacity: 1;
     }
+    
+    section {
+      min-height: 500px;
+    }
+    
+    @media (max-width: 768px) {
+      section {
+        min-height: 400px;
+      }
+    }
   </style>
 
-  <script src="/src/javascript/script.js"></script>
+  <script src="/src/javascript/scriptReveal.js"></script>
 </html>
