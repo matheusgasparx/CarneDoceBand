@@ -4,7 +4,7 @@
   "description": "<h1>Projeto Site Banda CarneDoce</h1>",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+    "dev": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
   },
   "keywords": [],
   "author": "",
