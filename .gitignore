@@ -5,7 +5,6 @@
 .nitro
 .cache
 dist
-postcss.config.js
 
 # Node dependencies
 node_modules
