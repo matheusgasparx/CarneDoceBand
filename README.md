@@ -1,6 +1,6 @@
 <h1>Website CarneDoce</h1>
 
-<h2>Can see in: https://matheusgasparx.github.io/CarneDoceBand</h2>
+Can see in: <a target="_blank"> https://matheusgasparx.github.io/CarneDoceBand </a>
 
 stacks
 
